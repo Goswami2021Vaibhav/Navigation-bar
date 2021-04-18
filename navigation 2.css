@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(99, 177, 177);
+}
+nav  .menu{  
+    width: 70px;
+    height:70px;
+    border-top-left-radius: 20px;
+    background-color: rgb(36, 102, 207);
+   
+}
+nav .menubtn{
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+    font-size: 30px;
+    
+}
+#fasfa{
+    margin-top: 15px;
+    cursor: pointer;
+    color:white;
+}
+#parentboxofmenu{
+    background-color: rgba(255, 255, 255, 0.89);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 10px;
+}
+.logo{
+    color: rgb(37, 16, 30);
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    top:8px;
+    left: 150px;
+}
+ nav .menuitem  {
+    display:flex;
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 2px;
+     
+}
+nav div a{
+    font-size: 15px;
+    margin: 0px 10px;
+    border:3px solid blue; 
+    padding: 10px;
+    border-radius: 60%;
+    background-color: white;
+    color:blue;
+}
+nav div a:hover{
+    background-color: blue;
+    border:3px solid rgb(6, 6, 109);
+    color:white;
+}
+
+.sidebar{
+    background-color: rgb(36, 102, 207);
+    width: 160px;
+    height: 100%;
+    position:fixed;
+    margin-left: 10px;   
+}
+ nav ul  a{
+    font-size: 25px;
+    text-transform: uppercase;
+    display: block;
+    margin-left:20px;
+    margin-top: 40px;
+    
+}
+nav ul  a:hover{
+    
+    border-radius: 5px;
+    text-shadow: 0 0 10px #FF0000, 0 0 5px #0000FF;
+}
+nav .icon{
+    color:white;
+}
+nav .title{
+    font-size: 20px;
+    color:white;
+    margin-left: 10px;   
+}
+
+@media (max-width:560px){
+     nav .menuitem{
+    position: absolute;
+    top:100px; 
+    display: block; 
+    }
+    nav div a{
+        display: flex;
+        margin-top: 15px;
+        margin-right:2px;   
+    }
+
+
+}
+
+
